@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A.S. Tori - Sito Ufficiale</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, purple, pink);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #eee;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    h2 {
+      color: purple;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>A.S. Tori - Sito Ufficiale</h1>
+    <p><strong>Taurus Arena, Bruino</strong> | Presidente: Simone Dell'Amico</p>
+  </header>
+
+  <nav>
+    <a href="#abbonamenti">Abbonamenti</a>
+    <a href="#squadra">La Squadra</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+
+  <section id="abbonamenti">
+    <h2>Campagna Abbonamenti 25/26</h2>
+    <p>Unisciti a noi per una nuova stagione in Serie A!</p>
+    <ul>
+      <li>Posto garantito al Taurus Arena</li>
+      <li>Trasferte pagate al 50% dalla società</li>
+      <li>Merchandising esclusivo per gli abbonati</li>
+    </ul>
+  </section>
+
+  <section id="squadra">
+    <h2>La Rosa 25/26</h2>
+    <p>Allenatore: Thiago Motta</p>
+    <p>Il nuovo corso è cominciato. Dopo la salvezza storica, siamo pronti a competere!</p>
+    <!-- Qui si può inserire una tabella o una lista della rosa -->
+  </section>
+
+  <section id="contatti">
+    <h2>Contatti</h2>
+    <p>Email: info@astori.it</p>
+    <p>Instagram: @as.tori.official</p>
+  </section>
+
+  <footer>
+    &copy; 2025 A.S. Tori - Tutti i diritti riservati
+  </footer>
+</body>
+</html>
